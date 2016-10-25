@@ -244,10 +244,12 @@ ul {
     height: 0;
     overflow: hidden;
     transition: height 500ms ease;
+
     .submenu-content {
-      padding: 30px;
       background: #4b4c4d;
-      height: 266px;
+      height: 268px;
+      display: flex;
+
       h3 {
         margin: 0;
         text-transform: uppercase;
@@ -262,14 +264,13 @@ ul {
         text-align: left;
       }
     }
+    .col-block-1,.col-block-2,.col-block-3 {
+      padding:30px;
+      border-left: 1px solid #ccc;
+    }
     .col-block-1 {
       width: 40%;
-      float: left;
-    }
-    //change
-    .col-block-2,
-    .col-block-3 {
-      float: left;
+      border: none;
     }
     .col-block-2 {
       width: 25%;
@@ -277,46 +278,25 @@ ul {
     .col-block-3 {
       width: 35%;
     }
-    //change
-  }
-}
-//Subemnu Sangeetha
-.submenu-content {
-  .col-block-2,
-  .col-block-3 {
-    border-left: 1px solid #ccc;
-  }
-  .col-block-1 {
-    padding-right: 30px;
-  }
-  .col-block-3 {
-    padding-left: 30px;
-  }
-}
-.submenu-content {
-  .col-block-2 {
-    padding: 0 30px;
-  }
-  .education-content-wrapper {
-    margin-top: 20px;
-  }
-  .create-your-own {
-    .shop-by-shape {
-      height: 70px;
-      padding: 0;
+    .education-content-wrapper {
+      margin-top: 20px;
     }
-  }
-}
-.submenu-content {
-  span {
-    color: #b1b1b1;
-    font-family: AldusNovaPro;
-    font-size: 16px;
-    font-weight: 300;
-  }
-  .shape-container {
-    .col-md-1 {
-      margin-bottom: 20px;
+    .create-your-own {
+      .shop-by-shape {
+        height: 70px;
+        padding: 0;
+      }
+    }
+    span {
+      color: #b1b1b1;
+      font-family: AldusNovaPro;
+      font-size: 16px;
+      font-weight: 300;
+    }
+    .shape-container {
+      .col-md-1 {
+        margin-bottom: 20px;
+      }
     }
   }
 }
