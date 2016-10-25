@@ -121,7 +121,7 @@ ul {
     float: left;
     padding-left: 42px;
     position: relative;
-
+    cursor: pointer;
     &:before {
       content: '';
       position: relative;
@@ -130,6 +130,10 @@ ul {
       height: 18px;
       position: absolute;
       left: 22px;
+    }
+    &:hover {
+      cursor: pointer;
+      text-decoration: none;
     }
     a {
       color: @black;
@@ -149,6 +153,21 @@ ul {
     }
     &.bag:before {
       background-position: -10px -139px;
+    }
+    &.login.current:before, &.login:hover:before {
+      background-position: -35px -8px;
+    }
+    &.search.current:before, &.search:hover:before {
+      background-position: -35px -34px;
+    }
+    &.store.current:before, &.store:hover:before {
+      background-position: -35px -60px;
+    }
+    &.collection.current:before, &.collection:hover:before {
+      background-position: -35px -112px;
+    }
+    &.bag.current:before, &.bag:hover:before {
+      background-position: -35px -139px;
     }
     .notify {
       background: @red400;
@@ -210,6 +229,9 @@ ul {
       padding: 10px 0;
       float: none;
       border-bottom: 1px solid #dbdbdb;
+      &:before {
+        background: none;
+      }
     }
   }
 }

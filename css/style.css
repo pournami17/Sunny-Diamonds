@@ -364,6 +364,7 @@ ul {
   float: left;
   padding-left: 42px;
   position: relative;
+  cursor: pointer;
 }
 .top-menu li:before {
   content: '';
@@ -373,6 +374,10 @@ ul {
   height: 18px;
   position: absolute;
   left: 22px;
+}
+.top-menu li:hover {
+  cursor: pointer;
+  text-decoration: none;
 }
 .top-menu li a {
   color: #000000;
@@ -392,6 +397,26 @@ ul {
 }
 .top-menu li.bag:before {
   background-position: -10px -139px;
+}
+.top-menu li.login.current:before,
+.top-menu li.login:hover:before {
+  background-position: -35px -8px;
+}
+.top-menu li.search.current:before,
+.top-menu li.search:hover:before {
+  background-position: -35px -34px;
+}
+.top-menu li.store.current:before,
+.top-menu li.store:hover:before {
+  background-position: -35px -60px;
+}
+.top-menu li.collection.current:before,
+.top-menu li.collection:hover:before {
+  background-position: -35px -112px;
+}
+.top-menu li.bag.current:before,
+.top-menu li.bag:hover:before {
+  background-position: -35px -139px;
 }
 .top-menu li .notify {
   background: #f82f2f;
@@ -446,6 +471,9 @@ ul {
   padding: 10px 0;
   float: none;
   border-bottom: 1px solid #dbdbdb;
+}
+.top-menu .submenu li:before {
+  background: none;
 }
 .logo-wrapper {
   position: relative;
