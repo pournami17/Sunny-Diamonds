@@ -363,9 +363,16 @@ ul {
 .top-menu li {
   float: left;
   padding-left: 42px;
-  background-repeat: no-repeat;
-  background-position: 20px center;
   position: relative;
+}
+.top-menu li:before {
+  content: '';
+  position: relative;
+  background: url(../images/sprites2.png) no-repeat -10px -8px;
+  width: 16px;
+  height: 18px;
+  position: absolute;
+  left: 22px;
 }
 .top-menu li a {
   color: #000000;
@@ -373,6 +380,18 @@ ul {
   font-size: 14px;
   font-weight: 300;
   text-transform: uppercase;
+}
+.top-menu li.search:before {
+  background-position: -10px -34px;
+}
+.top-menu li.store:before {
+  background-position: -10px -60px;
+}
+.top-menu li.collection:before {
+  background-position: -10px -112px;
+}
+.top-menu li.bag:before {
+  background-position: -10px -139px;
 }
 .top-menu li .notify {
   background: #f82f2f;
@@ -387,21 +406,6 @@ ul {
   position: absolute;
   right: -8px;
   top: -6px;
-}
-.top-menu li.login {
-  background-image: url(../images/icon-login.png);
-}
-.top-menu li.search {
-  background-image: url(../images/icon-search.png);
-}
-.top-menu li.store {
-  background-image: url(../images/icon-store.png);
-}
-.top-menu li.collection {
-  background-image: url(../images/icon-collection.png);
-}
-.top-menu li.bag {
-  background-image: url(../images/icon-bag.png);
 }
 .top-menu li.current > .submenu {
   display: block;
