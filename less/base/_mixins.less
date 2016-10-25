@@ -34,10 +34,28 @@
   transform: @val;
 }
 
+// .font-names
+// {
+//
+//     @font-face {
+//
+//         font-family: 'Karbon-MediumItalic';
+//         src: url('@{path-fonts}/Karbon-MediumItalic/Karbon-MediumItalic.eot') format('enbedded-opentype'),
+//              url('@{path-fonts}/Karbon-MediumItalic/Karbon-MediumItalic.ttf') format('truetype'),
+//              url('@{path-fonts}/Karbon-MediumItalic/Karbon-MediumItalic.woff') format('woff'),
+//              url('@{path-fonts}/Karbon-MediumItalic/Karbon-MediumItalic.svg') format('svg');
+//
+//     }
+//
+// }
+
 .font-face(@font-folder, @font-family) {
   @font-face {
     font-family: @font-family;
-    src: url('../fonts/#{@font-folder}/#{@font-family}.ttf') format('truetype');
+		src: url('@{path-fonts}/@{font-folder}/@{font-family}.eot') format('enbedded-opentype'),
+		     url('@{path-fonts}/@{font-folder}/@{font-family}.ttf') format('truetype'),
+		     url('@{path-fonts}/@{font-folder}/@{font-family}.woff') format('woff'),
+		     url('@{path-fonts}/@{font-folder}/@{font-family}.svg') format('svg');
   }
 }
 
