@@ -120,15 +120,35 @@ ul {
   li {
     float: left;
     padding-left: 42px;
-    background-repeat: no-repeat;
-    background-position: 20px center;
     position: relative;
+
+    &:before {
+      content: '';
+      position: relative;
+      background: url(../images/sprites2.png) no-repeat -10px -8px;
+      width: 16px;
+      height: 18px;
+      position: absolute;
+      left: 22px;
+    }
     a {
       color: @black;
       font-family: Karbon;
       font-size: 14px;
       font-weight: @fontWeightLight;
       text-transform: uppercase;
+    }
+    &.search:before {
+      background-position: -10px -34px;
+    }
+    &.store:before {
+      background-position: -10px -60px;
+    }
+    &.collection:before {
+      background-position: -10px -112px;
+    }
+    &.bag:before {
+      background-position: -10px -139px;
     }
     .notify {
       background: @red400;
@@ -143,21 +163,6 @@ ul {
       position: absolute;
       right: -8px;
       top: -6px;
-    }
-    &.login {
-      background-image: url(../images/icon-login.png);
-    }
-    &.search {
-      background-image: url(../images/icon-search.png);
-    }
-    &.store {
-      background-image: url(../images/icon-store.png);
-    }
-    &.collection {
-      background-image: url(../images/icon-collection.png);
-    }
-    &.bag {
-      background-image: url(../images/icon-bag.png);
     }
     &.current {
       &>.submenu {
