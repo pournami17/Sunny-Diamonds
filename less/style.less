@@ -5,7 +5,12 @@
 @import "base/_variables.less";
 @import "base/_typography.less";
 @import "base/_reset.less";
-@import "slick.less";
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
 h1 {
   margin: 0;
 }
@@ -1754,7 +1759,7 @@ ul {
 
         .maxWidth(@scr-991, { width: 50%;});
         .maxWidth(@scr-767, { width: 100%;});
-        
+
         .account-wrapper {
             margin: 0 auto;
             width: 100%;
@@ -1769,7 +1774,7 @@ ul {
                 color: @headcolor;
                 font-size: 24px;
                 font-weight: @fontWeightLight;
-                text-transform: uppercase; 
+                text-transform: uppercase;
             }
 
             .create-caption {
@@ -1791,16 +1796,16 @@ ul {
                     height: 43px;
                     padding: 0;
                     border: none;
-                }               
+                }
                 .input-group-addon {
                     border-color: @black;
                     border-radius: 0;
                 }
-                
+
                 .datepicker {
                     display: block;
                 }
-                
+
                 .btn-color {
                     background-color: @formcolor;
                     border: 1px solid @formcolor;
@@ -1833,7 +1838,7 @@ ul {
 
         .maxWidth(@scr-991, { width: 50%;});
         .maxWidth(@scr-767, { width: 100%;});
-        
+
         .login-wrapper {
             margin: 0 auto;
             width: 100%;
@@ -1847,7 +1852,7 @@ ul {
               color: @headcolor;
               font-size: 24px;
               font-weight: @fontWeightLight;
-              text-transform: uppercase; 
+              text-transform: uppercase;
             }
 
             .login-caption {
@@ -1870,7 +1875,7 @@ ul {
                     border: 1px solid @formcolor;
                     .zero-border;
                     height: 48px;
-                    text-transform: uppercase; 
+                    text-transform: uppercase;
                 }
 
                 .button-login {
@@ -1941,7 +1946,7 @@ form {
     .error {
       color: #FF0000;
       font-size: 12px;
-      
+
     }
 
     .text-name {
@@ -1977,7 +1982,7 @@ form {
     width: 100%;
     margin: 0 0 50px 0;
     .maxWidth(@scr-1024, {margin: 0;});
-    
+
     h3 {
       margin: 25px 0 15px 0;
     }
@@ -2244,4 +2249,3 @@ form {
 .deliver-wrapper {
     clear: both;
   }
-

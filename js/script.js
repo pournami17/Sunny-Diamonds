@@ -45,7 +45,7 @@ webApp.prototype.validate = function() {
 };
 
 webApp.prototype.customScript = function() {
-  
+
     $('#dateOfBirthPicker').datepicker({
         orientation: "bottom"
     });
@@ -165,6 +165,10 @@ webApp.prototype.silder = function() {
       'active');
     $(this).siblings('ul').slideToggle('slow');
     $(this).parent().siblings().children('ul').slideUp('slow');
+  });
+
+  $(window).load(function() {
+    $("body").removeClass("preload");
   });
 
 };
