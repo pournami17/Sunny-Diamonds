@@ -1,4 +1,3 @@
-/*----- ADDED BY POURNAMI ----*/
 .border-box {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -17,7 +16,7 @@
 }
 .full-width {
   width: 100%;
-}
+} 
 .no-bg {
   background: none;
 }
@@ -40,213 +39,91 @@
   border-radius: 0;
 }
 /*----- ADDED BY POURNAMI ----*/
-@font-face {
-  font-family: Karbon-MediumItalic;
-  src: url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.eot') format('enbedded-opentype'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.ttf') format('truetype'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.woff') format('woff'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.svg') format('svg');
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
 }
-@font-face {
-  font-family: AldusNovaProBold;
-  src: url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.ttf') format('truetype'), url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.woff') format('woff'), url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.svg') format('svg');
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
-@font-face {
-  font-family: AldusNovaPro-BoldItalic;
-  src: url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.ttf') format('truetype'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.woff') format('woff'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.svg') format('svg');
+.slick-list:focus {
+  outline: none;
 }
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
 }
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
 }
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+.slick-track:before,
+.slick-track:after {
+  content: "";
+  display: table;
 }
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+.slick-track:after {
+  clear: both;
 }
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+.slick-loading .slick-track {
+  visibility: hidden;
 }
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
 }
-@font-face {
-  font-family: Karbon-MediumItalic;
-  src: url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.eot') format('enbedded-opentype'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.ttf') format('truetype'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.woff') format('woff'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.svg') format('svg');
+[dir="rtl"] .slick-slide {
+  float: right;
 }
-@font-face {
-  font-family: AldusNovaProBold;
-  src: url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.ttf') format('truetype'), url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.woff') format('woff'), url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.svg') format('svg');
+.slick-slide img {
+  display: block;
 }
-@font-face {
-  font-family: AldusNovaPro-BoldItalic;
-  src: url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.ttf') format('truetype'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.woff') format('woff'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.svg') format('svg');
+.slick-slide.slick-loading img {
+  display: none;
 }
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+.slick-slide.dragging img {
+  pointer-events: none;
 }
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+.slick-initialized .slick-slide {
+  display: block;
 }
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+.slick-loading .slick-slide {
+  visibility: hidden;
 }
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
 }
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
-}
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
-}
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-MediumItalic;
-  src: url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.eot') format('enbedded-opentype'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.ttf') format('truetype'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.woff') format('woff'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.svg') format('svg');
-}
-@font-face {
-  font-family: AldusNovaProBold;
-  src: url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.ttf') format('truetype'), url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.woff') format('woff'), url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.svg') format('svg');
-}
-@font-face {
-  font-family: AldusNovaPro-BoldItalic;
-  src: url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.ttf') format('truetype'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.woff') format('woff'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.svg') format('svg');
-}
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
-}
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
-}
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
-}
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
-}
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
-}
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
-}
-@font-face {
-  font-family: AldusNovaPro-Book;
-  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-MediumItalic;
-  src: url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.eot') format('enbedded-opentype'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.ttf') format('truetype'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.woff') format('woff'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.svg') format('svg');
-}
-@font-face {
-  font-family: AldusNovaProBold;
-  src: url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.ttf') format('truetype'), url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.woff') format('woff'), url('../fonts/AldusNovaPro-Bold/AldusNovaProBold.svg') format('svg');
-}
-@font-face {
-  font-family: AldusNovaPro-BoldItalic;
-  src: url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.ttf') format('truetype'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.woff') format('woff'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.svg') format('svg');
-}
-@font-face {
-  font-family: AldusNovaPro-BookItalic;
-  src: url('../fonts/AldusNovaPro-BookItalic/AldusNovaPro-BookItalic.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-BookItalic/AldusNovaPro-BookItalic.ttf') format('truetype'), url('../fonts/AldusNovaPro-BookItalic/AldusNovaPro-BookItalic.woff') format('woff'), url('../fonts/AldusNovaPro-BookItalic/AldusNovaPro-BookItalic.svg') format('svg');
-}
-@font-face {
-  font-family: BodoniFLF-Bold;
-  src: url('../fonts/BodoniFLF-Bold/BodoniFLF-Bold.eot') format('enbedded-opentype'), url('../fonts/BodoniFLF-Bold/BodoniFLF-Bold.ttf') format('truetype'), url('../fonts/BodoniFLF-Bold/BodoniFLF-Bold.woff') format('woff'), url('../fonts/BodoniFLF-Bold/BodoniFLF-Bold.svg') format('svg');
-}
-@font-face {
-  font-family: BodoniFLF-BoldItalic;
-  src: url('../fonts/BodoniFLF-BoldItalic/BodoniFLF-BoldItalic.eot') format('enbedded-opentype'), url('../fonts/BodoniFLF-BoldItalic/BodoniFLF-BoldItalic.ttf') format('truetype'), url('../fonts/BodoniFLF-BoldItalic/BodoniFLF-BoldItalic.woff') format('woff'), url('../fonts/BodoniFLF-BoldItalic/BodoniFLF-BoldItalic.svg') format('svg');
-}
-@font-face {
-  font-family: BodoniFLF-Italic;
-  src: url('../fonts/BodoniFLF-Italic/BodoniFLF-Italic.eot') format('enbedded-opentype'), url('../fonts/BodoniFLF-Italic/BodoniFLF-Italic.ttf') format('truetype'), url('../fonts/BodoniFLF-Italic/BodoniFLF-Italic.woff') format('woff'), url('../fonts/BodoniFLF-Italic/BodoniFLF-Italic.svg') format('svg');
-}
-@font-face {
-  font-family: BodoniFLF-Roman;
-  src: url('../fonts/BodoniFLF-Roman/BodoniFLF-Roman.eot') format('enbedded-opentype'), url('../fonts/BodoniFLF-Roman/BodoniFLF-Roman.ttf') format('truetype'), url('../fonts/BodoniFLF-Roman/BodoniFLF-Roman.woff') format('woff'), url('../fonts/BodoniFLF-Roman/BodoniFLF-Roman.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-Bold;
-  src: url('../fonts/Karbon-Bold/Karbon-Bold.eot') format('enbedded-opentype'), url('../fonts/Karbon-Bold/Karbon-Bold.ttf') format('truetype'), url('../fonts/Karbon-Bold/Karbon-Bold.woff') format('woff'), url('../fonts/Karbon-Bold/Karbon-Bold.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-BoldItalic;
-  src: url('../fonts/Karbon-BoldItalic/Karbon-BoldItalic.eot') format('enbedded-opentype'), url('../fonts/Karbon-BoldItalic/Karbon-BoldItalic.ttf') format('truetype'), url('../fonts/Karbon-BoldItalic/Karbon-BoldItalic.woff') format('woff'), url('../fonts/Karbon-BoldItalic/Karbon-BoldItalic.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-Hairline;
-  src: url('../fonts/Karbon-Hairline/Karbon-Hairline.eot') format('enbedded-opentype'), url('../fonts/Karbon-Hairline/Karbon-Hairline.ttf') format('truetype'), url('../fonts/Karbon-Hairline/Karbon-Hairline.woff') format('woff'), url('../fonts/Karbon-Hairline/Karbon-Hairline.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-HairlineItalic;
-  src: url('../fonts/Karbon-HairlineItalic/Karbon-HairlineItalic.eot') format('enbedded-opentype'), url('../fonts/Karbon-HairlineItalic/Karbon-HairlineItalic.ttf') format('truetype'), url('../fonts/Karbon-HairlineItalic/Karbon-HairlineItalic.woff') format('woff'), url('../fonts/Karbon-HairlineItalic/Karbon-HairlineItalic.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-Light;
-  src: url('../fonts/Karbon-Light/Karbon-Light.eot') format('enbedded-opentype'), url('../fonts/Karbon-Light/Karbon-Light.ttf') format('truetype'), url('../fonts/Karbon-Light/Karbon-Light.woff') format('woff'), url('../fonts/Karbon-Light/Karbon-Light.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-LightItalic;
-  src: url('../fonts/Karbon-LightItalic/Karbon-LightItalic.eot') format('enbedded-opentype'), url('../fonts/Karbon-LightItalic/Karbon-LightItalic.ttf') format('truetype'), url('../fonts/Karbon-LightItalic/Karbon-LightItalic.woff') format('woff'), url('../fonts/Karbon-LightItalic/Karbon-LightItalic.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-Medium;
-  src: url('../fonts/Karbon-Medium/Karbon-Medium.eot') format('enbedded-opentype'), url('../fonts/Karbon-Medium/Karbon-Medium.ttf') format('truetype'), url('../fonts/Karbon-Medium/Karbon-Medium.woff') format('woff'), url('../fonts/Karbon-Medium/Karbon-Medium.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-MediumItalic;
-  src: url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.eot') format('enbedded-opentype'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.ttf') format('truetype'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.woff') format('woff'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-Regular;
-  src: url('../fonts/Karbon-Regular/Karbon-Regular.eot') format('enbedded-opentype'), url('../fonts/Karbon-Regular/Karbon-Regular.ttf') format('truetype'), url('../fonts/Karbon-Regular/Karbon-Regular.woff') format('woff'), url('../fonts/Karbon-Regular/Karbon-Regular.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-RegularItalic;
-  src: url('../fonts/Karbon-RegularItalic/Karbon-RegularItalic.eot') format('enbedded-opentype'), url('../fonts/Karbon-RegularItalic/Karbon-RegularItalic.ttf') format('truetype'), url('../fonts/Karbon-RegularItalic/Karbon-RegularItalic.woff') format('woff'), url('../fonts/Karbon-RegularItalic/Karbon-RegularItalic.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-Semibold;
-  src: url('../fonts/Karbon-Semibold/Karbon-Semibold.eot') format('enbedded-opentype'), url('../fonts/Karbon-Semibold/Karbon-Semibold.ttf') format('truetype'), url('../fonts/Karbon-Semibold/Karbon-Semibold.woff') format('woff'), url('../fonts/Karbon-Semibold/Karbon-Semibold.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-SemiboldItalic;
-  src: url('../fonts/Karbon-SemiboldItalic/Karbon-SemiboldItalic.eot') format('enbedded-opentype'), url('../fonts/Karbon-SemiboldItalic/Karbon-SemiboldItalic.ttf') format('truetype'), url('../fonts/Karbon-SemiboldItalic/Karbon-SemiboldItalic.woff') format('woff'), url('../fonts/Karbon-SemiboldItalic/Karbon-SemiboldItalic.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-Thin;
-  src: url('../fonts/Karbon-Thin/Karbon-Thin.eot') format('enbedded-opentype'), url('../fonts/Karbon-Thin/Karbon-Thin.ttf') format('truetype'), url('../fonts/Karbon-Thin/Karbon-Thin.woff') format('woff'), url('../fonts/Karbon-Thin/Karbon-Thin.svg') format('svg');
-}
-@font-face {
-  font-family: Karbon-ThinItalic;
-  src: url('../fonts/Karbon-ThinItalic/Karbon-ThinItalic.eot') format('enbedded-opentype'), url('../fonts/Karbon-ThinItalic/Karbon-ThinItalic.ttf') format('truetype'), url('../fonts/Karbon-ThinItalic/Karbon-ThinItalic.woff') format('woff'), url('../fonts/Karbon-ThinItalic/Karbon-ThinItalic.svg') format('svg');
+.slick-arrow.slick-hidden {
+  display: none;
 }
 h1 {
   margin: 0;
@@ -258,7 +135,7 @@ a {
   color: #000000;
 }
 .btn-default {
-  font-family: Karbon-MediumItalic;
+  font-family: AldusNovaPro;
   height: 46px;
   border: 1px solid #4b4c4d;
   color: #4b4c4d;
@@ -271,7 +148,9 @@ a {
 }
 .btn-default-small {
   color: #4b4c4d;
+  font-family: "Aldus Nova Pro";
   font-size: 14px;
+  font-weight: 300;
   height: 36px;
   padding: 6px 20px;
 }
@@ -636,7 +515,7 @@ ul {
 .jewelery-collection h3,
 .diamond-section h3 {
   color: #000000;
-  font-family: AldusNovaProBold;
+  font-family: "Aldus Nova Pro";
   font-size: 30px;
   font-weight: 300;
   text-transform: uppercase;
