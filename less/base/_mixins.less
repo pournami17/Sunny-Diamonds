@@ -1,0 +1,114 @@
+@import "_typography.less";
+
+.border-box {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.transform-origin (@origin) {
+    moz-transform-origin: @origin;
+    -o-transform-origin: @origin;
+    -ms-transform-origin: @origin;
+    -webkit-transform-origin: @origin;
+    transform-origin: @origin;
+}
+
+.transition(@val) {
+  -webkit-transition: @val;
+  -moz-transition:@val;
+  -o-transition:@val;
+  -ms-transition:@val;
+  transition:@val;
+}
+
+.transform(@val) {
+  -webkit-transform: @val;
+  -moz-transform: @val;
+  -ms-transform: @val;
+  transform: @val;
+}
+
+.font-face(@font-folder, @font-family) {
+  @font-face {
+    font-family: @font-family;
+    src: url('../fonts/#{@font-folder}/#{@font-family}.ttf') format('truetype');
+  }
+}
+
+.font(@font) {
+   font-family: @font;
+}
+
+.clearfix {
+    *zoom: 1;
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+.full-width {
+  width: 100%;
+}
+
+.no-bg {
+  background: none;
+}
+
+.no-border {
+  border: none;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.common-style-font {
+  font-family: AldusNovaPro;
+  font-weight: @fontWeightLight;
+  font-size: 14px;
+  color: @black;
+}
+
+.zero-border {
+  border-radius: 0;
+}
+
+//media queries
+
+//resolutions
+@scr-360: 360px;
+@scr-480: 480px;
+@scr-600: 600px;
+@scr-767: 767px;
+@scr-768: 768px;
+@scr-991: 991px;
+@scr-992: 992px;
+@scr-1023: 1023px;
+@scr-1024: 1024px;
+
+.maxWidth(@maxWidth; @rules) {
+    @media only screen and (max-width: @maxWidth) {
+        @rules();
+    }
+}
+
+.minWidth(@minWidth; @rules) {
+    @media only screen and (min-width: @minWidth) {
+        @rules();
+    }
+}

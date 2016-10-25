@@ -1,0 +1,97 @@
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 28px;
+  line-height: 35px;
+}
+p {
+  text-align: center;
+}
+p a {
+  margin: 20px 0;
+}
+span {
+  font-size: 16px;
+}
+.personality-sec {
+  position: relative;
+  left: 5%;
+  width: 324px;
+  text-align: center;
+  z-index: 4;
+  margin: 0 auto;
+}
+.personality-container .container {
+  position: relative;
+  z-index: 1;
+}
+.personality-container {
+  margin-bottom: 20px;
+}
+.personality-container .personality-img-container {
+  background: url(../images/shop-by-personality.png) no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  background-position: top center;
+}
+.netherlands {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.presence-in .shop-by-countries img {
+  width: 100%;
+}
+.presence-in h2 {
+  color: #333;
+  font-size: 30px;
+}
+.presence-in p {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.presence-in .netherlands h2 {
+  font-size: 34px;
+}
+.presence-in .netherlands h2 {
+  font-size: 34px;
+  text-transform: capitalize;
+}
+.presence-in .netherlands p {
+  text-transform: capitalize;
+}
+.presence-in .col-md-4 h2 {
+  font-size: 34px;
+  text-transform: capitalize;
+}
+.presence-in .col-md-4 span {
+  font-size: 20px;
+}
+.presence-in .presence-content-wrapper h2 {
+  text-transform: capitalize;
+}
+.presence-in .presence-content-wrapper span {
+  font-size: 20px;
+}
+.personality-container img {
+  width: 100%;
+}
+.shape-container .col-md-1 {
+  width: 10%;
+}
+.shop-by-shape {
+  height: 60px;
+  padding: 0;
+}
+.presence-countries {
+  height: 170px;
+}
+.diamond-shape {
+  color: #6b6b6b;
+  font-size: 14px;
+}
+.shop-shape-sec h2 {
+  margin-bottom: 40px;
+}
