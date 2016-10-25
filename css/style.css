@@ -277,9 +277,9 @@ ul {
   transition: height 500ms ease;
 }
 .sunny-diamonds-nav .navbar-nav .submenu .submenu-content {
-  padding: 30px;
   background: #4b4c4d;
-  height: 266px;
+  height: 268px;
+  display: flex;
 }
 .sunny-diamonds-nav .navbar-nav .submenu .submenu-content h3 {
   margin: 0;
@@ -294,13 +294,15 @@ ul {
   width: 20%;
   text-align: left;
 }
-.sunny-diamonds-nav .navbar-nav .submenu .col-block-1 {
-  width: 40%;
-  float: left;
-}
+.sunny-diamonds-nav .navbar-nav .submenu .col-block-1,
 .sunny-diamonds-nav .navbar-nav .submenu .col-block-2,
 .sunny-diamonds-nav .navbar-nav .submenu .col-block-3 {
-  float: left;
+  padding: 30px;
+  border-left: 1px solid #ccc;
+}
+.sunny-diamonds-nav .navbar-nav .submenu .col-block-1 {
+  width: 40%;
+  border: none;
 }
 .sunny-diamonds-nav .navbar-nav .submenu .col-block-2 {
   width: 25%;
@@ -308,33 +310,20 @@ ul {
 .sunny-diamonds-nav .navbar-nav .submenu .col-block-3 {
   width: 35%;
 }
-.submenu-content .col-block-2,
-.submenu-content .col-block-3 {
-  border-left: 1px solid #ccc;
-}
-.submenu-content .col-block-1 {
-  padding-right: 30px;
-}
-.submenu-content .col-block-3 {
-  padding-left: 30px;
-}
-.submenu-content .col-block-2 {
-  padding: 0 30px;
-}
-.submenu-content .education-content-wrapper {
+.sunny-diamonds-nav .navbar-nav .submenu .education-content-wrapper {
   margin-top: 20px;
 }
-.submenu-content .create-your-own .shop-by-shape {
+.sunny-diamonds-nav .navbar-nav .submenu .create-your-own .shop-by-shape {
   height: 70px;
   padding: 0;
 }
-.submenu-content span {
+.sunny-diamonds-nav .navbar-nav .submenu span {
   color: #b1b1b1;
   font-family: AldusNovaPro;
   font-size: 16px;
   font-weight: 300;
 }
-.submenu-content .shape-container .col-md-1 {
+.sunny-diamonds-nav .navbar-nav .submenu .shape-container .col-md-1 {
   margin-bottom: 20px;
 }
 .spotlight-wrapper {
