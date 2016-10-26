@@ -1,3 +1,4 @@
+/*----- ADDED BY POURNAMI ----*/
 .border-box {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -38,59 +39,7 @@
 .zero-border {
   border-radius: 0;
 }
-body {
-  font-size: 16px;
-  font-family: AldusNovaPro-Book;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 16px;
-}
-label {
-  font-size: 18px;
-  color: #767676;
-}
-a {
-  text-decoration: none;
-  color: #4b4c4d;
-  font-size: 16px;
-}
-span {
-  font-size: 16px;
-}
-button.btn {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
-button.btn.btn-default {
-  background: #4b4c4d;
-  border: 1px solid #4b4c4d;
-  color: #ffffff;
-  text-transform: uppercase;
-  border-radius: 0;
-}
-button.btn.btn-primary {
-  font-size: 22px;
-}
-button.btn.btn-primary:hover,
-button.btn.btn-primary:active,
-button.btn.btn-primary:focus {
-  background: #888;
-}
-button.btn.btn-small {
-  font-size: 16px;
-}
-button.btn.btn-small:hover,
-button.btn.btn-small:active,
-button.btn.btn-small:focus {
-  background: #888;
-}
+/*----- ADDED BY POURNAMI ----*/
 @font-face {
   font-family: Karbon-MediumItalic;
   src: url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.eot') format('enbedded-opentype'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.ttf') format('truetype'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.woff') format('woff'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.svg') format('svg');
@@ -102,6 +51,30 @@ button.btn.btn-small:focus {
 @font-face {
   font-family: AldusNovaPro-BoldItalic;
   src: url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.ttf') format('truetype'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.woff') format('woff'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
 }
 @font-face {
   font-family: AldusNovaPro-Book;
@@ -120,6 +93,34 @@ button.btn.btn-small:focus {
   src: url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.ttf') format('truetype'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.woff') format('woff'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.svg') format('svg');
 }
 @font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
   font-family: Karbon-MediumItalic;
   src: url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.eot') format('enbedded-opentype'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.ttf') format('truetype'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.woff') format('woff'), url('../fonts/Karbon-MediumItalic/Karbon-MediumItalic.svg') format('svg');
 }
@@ -130,6 +131,34 @@ button.btn.btn-small:focus {
 @font-face {
   font-family: AldusNovaPro-BoldItalic;
   src: url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.ttf') format('truetype'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.woff') format('woff'), url('../fonts/AldusNovaPro-BoldItalic/AldusNovaPro-BoldItalic.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
+}
+@font-face {
+  font-family: AldusNovaPro-Book;
+  src: url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.eot') format('enbedded-opentype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.ttf') format('truetype'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.woff') format('woff'), url('../fonts/AldusNovaPro-Book/AldusNovaPro-Book.svg') format('svg');
 }
 @font-face {
   font-family: Karbon-MediumItalic;
@@ -219,18 +248,6 @@ button.btn.btn-small:focus {
   font-family: Karbon-ThinItalic;
   src: url('../fonts/Karbon-ThinItalic/Karbon-ThinItalic.eot') format('enbedded-opentype'), url('../fonts/Karbon-ThinItalic/Karbon-ThinItalic.ttf') format('truetype'), url('../fonts/Karbon-ThinItalic/Karbon-ThinItalic.woff') format('woff'), url('../fonts/Karbon-ThinItalic/Karbon-ThinItalic.svg') format('svg');
 }
-@font-face {
-  font-family: HelveticaNeue-Regular;
-  src: url('../fonts/HelveticaNeue-Regular/HelveticaNeue-Regular.eot') format('enbedded-opentype'), url('../fonts/HelveticaNeue-Regular/HelveticaNeue-Regular.ttf') format('truetype'), url('../fonts/HelveticaNeue-Regular/HelveticaNeue-Regular.woff') format('woff'), url('../fonts/HelveticaNeue-Regular/HelveticaNeue-Regular.svg') format('svg');
-}
-@font-face {
-  font-family: HelveticaNeue-Thin;
-  src: url('../fonts/HelveticaNeue-Thin/HelveticaNeue-Thin.eot') format('enbedded-opentype'), url('../fonts/HelveticaNeue-Thin/HelveticaNeue-Thin.ttf') format('truetype'), url('../fonts/HelveticaNeue-Thin/HelveticaNeue-Thin.woff') format('woff'), url('../fonts/HelveticaNeue-Thin/HelveticaNeue-Thin.svg') format('svg');
-}
-@font-face {
-  font-family: HelveticaNeue-Bold;
-  src: url('../fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.eot') format('enbedded-opentype'), url('../fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.ttf') format('truetype'), url('../fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.woff') format('woff'), url('../fonts/HelveticaNeue-Bold/HelveticaNeue-Bold.svg') format('svg');
-}
 .preload * {
   -webkit-transition: none !important;
   -moz-transition: none !important;
@@ -242,6 +259,32 @@ h1 {
 }
 .container .block {
   padding: 0;
+}
+a {
+  color: #000000;
+}
+.btn-default {
+  font-family: Karbon-MediumItalic;
+  height: 46px;
+  border: 1px solid #4b4c4d;
+  color: #4b4c4d;
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 6px 35px;
+  background: none;
+}
+.btn-default-small {
+  color: #4b4c4d;
+  font-family: "Aldus Nova Pro";
+  font-size: 14px;
+  font-weight: 300;
+  height: 36px;
+  padding: 6px 20px;
+}
+.btn-default-large {
+  padding: 6px 55px;
 }
 .btn-capitalize {
   text-transform: capitalize;
@@ -298,7 +341,7 @@ ul {
   font-size: 12px;
 }
 .top-bar-right .select-block {
-  background: url("../images/down-arrow.png") no-repeat 100% 45%;
+  background: url(../images/down-arrow.png) no-repeat 100% 45%;
   background-size: 8px 6px;
 }
 .top-bar-right .select-block select {
@@ -346,19 +389,19 @@ ul {
   top: -6px;
 }
 .top-menu li.login {
-  background-image: url("../images/icon-login.png");
+  background-image: url(../images/icon-login.png);
 }
 .top-menu li.search {
-  background-image: url("../images/icon-search.png");
+  background-image: url(../images/icon-search.png);
 }
 .top-menu li.store {
-  background-image: url("../images/icon-store.png");
+  background-image: url(../images/icon-store.png);
 }
 .top-menu li.collection {
-  background-image: url("../images/icon-collection.png");
+  background-image: url(../images/icon-collection.png);
 }
 .top-menu li.bag {
-  background-image: url("../images/icon-bag.png");
+  background-image: url(../images/icon-bag.png);
 }
 .top-menu li.current > .submenu {
   display: block;
@@ -451,6 +494,7 @@ ul {
   margin: 0;
   text-transform: uppercase;
   color: #ffffff;
+  font-family: AldusNovaPro;
   font-size: 18px;
   font-weight: 300;
   padding-bottom: 18px;
@@ -484,6 +528,7 @@ ul {
 }
 .sunny-diamonds-nav .navbar-nav .submenu span {
   color: #b1b1b1;
+  font-family: AldusNovaPro;
   font-size: 16px;
   font-weight: 300;
 }
@@ -533,6 +578,9 @@ ul {
   margin: 0 auto;
   font-size: 16px;
 }
+.spotlight-wrapper .spot-details-wrap .spot-details .btn-default {
+  margin-top: 25px;
+}
 .spotlight-wrapper .spot-details-wrap .spot-top {
   display: flex;
   justify-content: center;
@@ -567,8 +615,8 @@ ul {
   position: absolute;
   right: 20px;
 }
-.spotlight-wrapper .owl-buttons .owl-next,
-.spotlight-wrapper .owl-buttons .owl-prev {
+.spotlight-wrapper .owl-buttons .owl-prev,
+.spotlight-wrapper .owl-buttons .owl-next {
   font-size: 18px;
   color: #838383;
   cursor: pointer;
@@ -582,8 +630,8 @@ ul {
   text-align: center;
   display: block;
 }
-.diamond-section h3,
-.jewelery-collection h3 {
+.jewelery-collection h3,
+.diamond-section h3 {
   color: #000000;
   font-family: "Aldus Nova Pro";
   font-size: 30px;
@@ -593,8 +641,8 @@ ul {
   line-height: 36px;
   padding-bottom: 20px;
 }
-.diamond-section p,
-.jewelery-collection p {
+.jewelery-collection p,
+.diamond-section p {
   color: #000000;
   font-family: "Aldus Nova Pro";
   font-size: 15px;
@@ -615,10 +663,10 @@ ul {
   position: relative;
 }
 .wrap-create-ring {
-  background-image: url("../images/your_own.png");
+  background-image: url(../images/your_own.png);
 }
 .wrap-unique-process {
-  background-image: url("../images/unique_process.png");
+  background-image: url(../images/unique_process.png);
 }
 .create-ring,
 .unique-process {
@@ -638,25 +686,27 @@ ul {
 }
 .our-jewelery-collection .jewelery-collection-top h3 {
   color: #333;
+  font-family: AldusNovaPro;
   font-size: 30px;
   font-weight: 300;
   text-transform: uppercase;
 }
 .our-jewelery-collection .jewelery-collection-top p {
   color: #000000;
+  font-family: AldusNovaPro;
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
 }
 .wrap-harmony-collection {
-  background: url("../images/harmony.png") no-repeat left top;
+  background: url(../images/harmony.png) no-repeat left top;
 }
 .wrap-harmony-collection .harmony-collection {
   right: 25%;
   top: 50%;
 }
 .wrap-symbol {
-  background: url("../images/love_know.png") no-repeat left top;
+  background: url(../images/love_know.png) no-repeat left top;
 }
 .wrap-symbol .unique-process {
   right: 5%;
@@ -667,7 +717,7 @@ ul {
   border: none;
 }
 .bridal-section .wrap-create-ring {
-  background-image: url("../images/bridal.png");
+  background-image: url(../images/bridal.png);
   border: none;
   height: 305px;
 }
@@ -713,8 +763,8 @@ ul {
   font-size: 12px;
 }
 .guide_to_buying_diamonds .nav-tabs > li.active a,
-.guide_to_buying_diamonds .nav-tabs > li.focus a,
-.guide_to_buying_diamonds .nav-tabs > li:hover a {
+.guide_to_buying_diamonds .nav-tabs > li:hover a,
+.guide_to_buying_diamonds .nav-tabs > li.focus a {
   background: none;
   border: none;
   color: #fff;
@@ -737,7 +787,7 @@ ul {
   float: right;
 }
 .guide_to_buying_diamonds .tab-content .tab-description ul li {
-  background: url("../images/unique_diamon_icon.png") no-repeat;
+  background: url(../images/unique_diamon_icon.png) no-repeat;
   min-height: 25px;
   padding-left: 36px;
 }
@@ -799,7 +849,7 @@ ul {
   width: 100%;
 }
 .featured-products figure figcaption {
-  background: url("../images/featured_products_bg.png") repeat-x;
+  background: url(../images/featured_products_bg.png) repeat-x;
   height: 109px;
   display: table;
   position: absolute;
@@ -845,26 +895,26 @@ ul {
 }
 /*--shop by personality, shop diamonds by shape, we have presence in--*/
 .personality-container h3,
-.presence-in h3,
-.shape-container h3 {
+.shape-container h3,
+.presence-in h3 {
   text-align: center;
   text-transform: uppercase;
   font: 28px "Aldus Nova Pro";
   line-height: 35px;
 }
 .personality-container p,
-.presence-in p,
-.shape-container p {
+.shape-container p,
+.presence-in p {
   text-align: center;
 }
 .personality-container p a,
-.presence-in p a,
-.shape-container p a {
+.shape-container p a,
+.presence-in p a {
   margin: 20px 0;
 }
 .personality-container span,
-.presence-in span,
-.shape-container span {
+.shape-container span,
+.presence-in span {
   font-size: 16px "Aldus Nova Pro";
 }
 .personality-sec {
@@ -889,7 +939,7 @@ ul {
   margin-bottom: 20px;
 }
 .personality-container .personality-img-container {
-  background: url("../images/shop-by-personality.png") no-repeat;
+  background: url(../images/shop-by-personality.png) no-repeat;
   background-size: contain;
   height: 300px;
   background-position: top center;
@@ -965,6 +1015,9 @@ ul {
 .shop-shape-sec h3 {
   margin-bottom: 40px;
 }
+.guide-to-buying-diamonds {
+  font-family: AldusNovaPro;
+}
 .guide-to-buying-diamonds .nav-tabs {
   display: flex;
 }
@@ -981,8 +1034,8 @@ ul {
   font-size: 12px;
 }
 .guide-to-buying-diamonds .nav-tabs > li.active a,
-.guide-to-buying-diamonds .nav-tabs > li.focus a,
-.guide-to-buying-diamonds .nav-tabs > li:hover a {
+.guide-to-buying-diamonds .nav-tabs > li:hover a,
+.guide-to-buying-diamonds .nav-tabs > li.focus a {
   background: none;
   border: none;
   color: #fff;
@@ -1006,7 +1059,7 @@ ul {
   padding: 0 15% 0 0;
 }
 .guide-to-buying-diamonds .tab-content .tab-description ul li {
-  background: url("../images/unique_diamon_icon.png") no-repeat;
+  background: url(../images/unique_diamon_icon.png) no-repeat;
   min-height: 25px;
   padding-left: 36px;
 }
@@ -1057,8 +1110,8 @@ ul {
   right: 0;
   z-index: 9;
 }
-.testimonials .owl-buttons .owl-next,
-.testimonials .owl-buttons .owl-prev {
+.testimonials .owl-buttons .owl-prev,
+.testimonials .owl-buttons .owl-next {
   width: 25px;
   height: 25px;
   border: 1px solid rgba(177, 177, 177, 0.81);
@@ -1067,11 +1120,11 @@ ul {
   float: left;
 }
 .testimonials .owl-buttons .owl-prev {
-  background: url("../images/layer-77-copy.png") no-repeat center;
+  background: url(../images/layer-77-copy.png) no-repeat center;
   margin-right: 5px;
 }
 .testimonials .owl-buttons .owl-next {
-  background: url("../images/layer-77-copy-2.png") no-repeat center;
+  background: url(../images/layer-77-copy-2.png) no-repeat center;
 }
 .testimonials .slick-wrapper .testimonial-image {
   float: left;
@@ -1092,10 +1145,10 @@ ul {
   float: left;
   position: relative;
 }
-.testimonials .slick-wrapper .quote-box:after,
-.testimonials .slick-wrapper .quote-box:before {
+.testimonials .slick-wrapper .quote-box:before,
+.testimonials .slick-wrapper .quote-box:after {
   content: "";
-  background: url("../images/quote_img.png") no-repeat;
+  background: url(../images/quote_img.png) no-repeat;
   position: absolute;
   top: 0;
   width: 24px;
@@ -1107,12 +1160,14 @@ ul {
 .testimonials .slick-wrapper .quote-box p {
   margin-top: 65px;
   color: #545353;
+  font-family: AldusNovaPro;
   font-size: 18px;
   font-weight: 300;
   line-height: 28px;
 }
 .testimonials .slick-wrapper .quote-box h5,
 .testimonials .slick-wrapper .quote-box span {
+  font-family: AldusNovaPro;
   font-weight: 300;
   line-height: 20px;
   color: #000000;
@@ -1312,6 +1367,7 @@ ul {
 .contact-section .contact-address {
   padding-top: 42px;
   color: #ffffff;
+  font-family: AldusNovaPro;
   font-weight: 300;
   font-size: 18px;
 }
@@ -1419,17 +1475,20 @@ ul {
   color: #ffffff;
 }
 /*-- my-account -24-10-2016-*/
-.add-new-address .form-control,
-.my-account .form-control {
+.my-account,
+.add-new-address {
+  margin: 0 auto 20px;
+  color: #cfcfcf;
+}
+.my-account .form-control,
+.add-new-address .form-control {
   height: 43px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   border-radius: 0;
   border: 1px solid #4b4c4d;
   margin: 0;
 }
-.add-new-address .calender-icon,
-.my-account .calender-icon {
+.my-account .calender-icon,
+.add-new-address .calender-icon {
   position: absolute;
   right: 29px;
   top: 9px;
@@ -1437,65 +1496,166 @@ ul {
   padding: 0;
   border: none;
 }
-.add-new-address .input-group-addon,
-.my-account .input-group-addon {
+.my-account .input-group-addon,
+.add-new-address .input-group-addon {
   border-color: #000000;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   border-radius: 0;
 }
-.add-new-address .datepicker,
-.my-account .datepicker {
+.my-account .datepicker,
+.add-new-address .datepicker {
   display: block;
 }
-.add-new-address .continue,
-.my-account .continue {
+.my-account .btn-color,
+.add-new-address .btn-color {
+  background-color: #4b4c4d;
+  border: 1px solid #4b4c4d;
+  height: 37px;
+  border-radius: 0;
+  height: 48px;
+  font-family: AldusNovaPro;
+  font-size: 22px;
+  font-weight: 300;
+}
+.my-account .continue,
+.add-new-address .continue {
   color: #ffffff;
   font-size: 22px;
   font-weight: 300;
   text-transform: uppercase;
 }
 @media only screen and (max-width: 767px) {
-  .add-new-address .continue,
-  .my-account .continue {
+  .my-account .continue,
+  .add-new-address .continue {
     font-size: 18px;
   }
 }
-.my-account-wrapper form {
-  width: 80%;
-}
-@media only screen and (max-width: 992px) {
-  .my-account-wrapper form {
-    width: 100%;
-  }
+.my-account-wrapper h3 {
+  color: #1b1b1b;
+  font-family: AldusNovaPro;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  padding-right: 136px;
+  margin-bottom: 40px;
 }
 @media only screen and (max-width: 767px) {
-  .address-book,
-  .my-account {
+  .my-account-wrapper h3 {
+    font-size: 22px;
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .my-account-wrapper h3 {
+    padding-right: 0;
+  }
+}
+.my-account,
+.address-book {
+  margin-top: 50px;
+}
+@media only screen and (max-width: 767px) {
+  .my-account,
+  .address-book {
     margin: 0;
   }
 }
-.add-new-address .checkbox-material,
-.my-account .checkbox-material {
+.my-account .form-group-wrapper,
+.add-new-address .form-group-wrapper {
+  padding-left: 40px;
+}
+@media only screen and (max-width: 1023px) {
+  .my-account .form-group-wrapper,
+  .add-new-address .form-group-wrapper {
+    padding: 0 40px;
+  }
+}
+.my-account .checkbox-material,
+.add-new-address .checkbox-material {
   color: #4b4c4d;
+  font-family: AldusNovaPro;
+  font-size: 18px;
+  font-weight: 300;
 }
 @media only screen and (max-width: 767px) {
-  .add-new-address .checkbox-material,
-  .my-account .checkbox-material {
+  .my-account .checkbox-material,
+  .add-new-address .checkbox-material {
     font-size: 10px;
   }
 }
+.my-account h4 {
+  color: #1b1b1b;
+  font-family: AldusNovaPro;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-left: 38px;
+  margin-top: 40px;
+}
+@media only screen and (max-width: 767px) {
+  .my-account h4 {
+    font-size: 14px;
+    padding-left: 18px;
+    background-color: #f5f5f5;
+    padding: 16px 0 16px 40px;
+    margin-top: 20px;
+  }
+  .my-account h4::after {
+    content: "+";
+    float: right;
+    padding-right: 20px;
+  }
+}
 .my-account .form-group {
-  margin: 15px 15px 0 0;
+  margin-top: 15px;
 }
 .address-book {
   clear: both;
 }
+.address-book h4 {
+  color: #1b1b1b;
+  font-family: AldusNovaPro;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 767px) {
+  .address-book h4 {
+    font-size: 14px;
+    padding-left: 18px;
+    background-color: #f5f5f5;
+    padding: 16px 0 16px 40px;
+    margin-top: 20px;
+  }
+  .address-book h4::after {
+    content: "+";
+    float: right;
+    padding-right: 20px;
+  }
+}
 .address-book .form-group {
   margin-top: 15px;
 }
+.add-new-address h5 {
+  color: #1b1b1b;
+  font-family: AldusNovaPro;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-left: 38px;
+  margin-top: 40px;
+}
+@media only screen and (max-width: 767px) {
+  .add-new-address h5 {
+    font-size: 14px;
+    padding-left: 18px;
+    padding: 16px 0 16px 40px;
+    margin-top: 20px;
+  }
+}
 .add-new-address .form-group {
-  margin: 15px 15px 0 0;
+  margin-top: 15px;
 }
 .address-book .default-billing {
   background-color: #ffffff;
@@ -1525,6 +1685,10 @@ ul {
 }
 .address-book .manage-address {
   color: #4b4c4d;
+  font-family: AldusNovaPro;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
 }
 @media only screen and (max-width: 767px) {
   .address-book .manage-address {
@@ -1532,14 +1696,17 @@ ul {
   }
 }
 .address-book .default-billing .billing-address,
-.address-book .default-billing .billing-edit-address,
-.address-book .default-billing .billing-not-set {
+.address-book .default-billing .billing-not-set,
+.address-book .default-billing .billing-edit-address {
   color: #4b4c4d;
+  font-family: AldusNovaPro;
+  font-size: 16px;
+  line-height: 24px;
 }
 @media only screen and (max-width: 767px) {
   .address-book .default-billing .billing-address,
-  .address-book .default-billing .billing-edit-address,
-  .address-book .default-billing .billing-not-set {
+  .address-book .default-billing .billing-not-set,
+  .address-book .default-billing .billing-edit-address {
     font-size: 12px;
     line-height: 10px;
   }
@@ -1562,6 +1729,9 @@ ul {
 }
 .address-book .add-address {
   color: #4b4c4d;
+  font-family: AldusNovaPro;
+  font-size: 16px;
+  font-weight: 300;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -1585,46 +1755,43 @@ ul {
 }
 .add-new-address .form-control {
   height: 43px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   border-radius: 0;
   border: 1px solid #4b4c4d;
   margin: 0;
 }
 .add-new-address .contact-info {
   color: #1b1b1b;
+  font-family: AldusNovaPro;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
   margin-top: 25px;
 }
-.add-new-address h3 {
+.add-new-address h4 {
   text-align: left;
 }
 .my-account {
-  margin: 50px 0 40px;
+  margin-bottom: 40px;
 }
 @media only screen and (max-width: 767px) {
   .my-account {
     margin-bottom: 0;
   }
 }
-.add-new-address,
-.my-account {
+.my-account,
+.add-new-address {
   background-color: #f5f5f5;
+  padding-bottom: 30px;
 }
 @media only screen and (max-width: 767px) {
-  .add-new-address,
-  .my-account {
+  .my-account,
+  .add-new-address {
     background-color: #ffffff;
   }
 }
 .add-new-address {
   margin-bottom: 40px;
   clear: both;
-  padding: 35px;
-}
-@media only screen and (max-width: 767px) {
-  .add-new-address {
-    margin-bottom: 0;
-  }
 }
 .add-new-address .container {
   padding-bottom: 30px;
@@ -1634,19 +1801,19 @@ ul {
     background-color: #f5f5f5;
   }
 }
-.address-book .account-plus-sign,
-.my-account .account-plus-sign {
+.my-account .account-plus-sign,
+.address-book .account-plus-sign {
   display: none;
   margin-right: 40px;
 }
 @media only screen and (max-width: 767px) {
-  .address-book .account-plus-sign,
-  .my-account .account-plus-sign {
+  .my-account .account-plus-sign,
+  .address-book .account-plus-sign {
     display: block;
   }
 }
 @media only screen and (max-width: 767px) {
-  .address-book h3 {
+  .address-book h4 {
     font-size: 14px;
     padding-left: 18px;
     margin-top: 0;
@@ -1660,7 +1827,10 @@ ul {
   }
 }
 .text-name {
+  font-family: AldusNovaPro;
+  font-weight: 300;
   color: #767676;
+  font-size: 14px;
 }
 @media only screen and (max-width: 767px) {
   .text-name {
@@ -1672,7 +1842,7 @@ ul {
   color: #e7838b;
 }
 .error {
-  color: #e7838b;
+  color: red;
 }
 .right-margin {
   margin-right: 15px;
@@ -1722,8 +1892,8 @@ ul {
   top: 0;
   right: 0;
 }
-.menu-btn a:after,
-.menu-btn a:before {
+.menu-btn a:before,
+.menu-btn a:after {
   content: '';
   display: block;
   background: #000000;
@@ -1741,6 +1911,7 @@ ul {
 }
 .responsive-menu .mm-title {
   color: #eee;
+  font-family: AldusNovaPro;
   font-size: 22px;
   font-weight: 300;
   text-transform: uppercase;
@@ -1769,6 +1940,7 @@ ul {
   left: 45px;
   content: "BACK";
   color: #ffffff;
+  font-family: AldusNovaPro;
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
@@ -1782,6 +1954,7 @@ ul {
 .responsive-menu.mm-shadow-panels .mm-panel.mm-opened:nth-child(n+2) {
   background: #4b4c4d;
   color: #ffffff;
+  font-family: AldusNovaPro;
 }
 .responsive-menu .mob-menu-wrapper {
   padding: 0;
@@ -1805,6 +1978,7 @@ ul {
 }
 .responsive-menu .mob-main-menu a,
 .responsive-menu .mob-main-menu span {
+  font-family: AldusNovaPro;
   text-transform: uppercase;
 }
 .responsive-menu .mob-submenu-top {
@@ -1835,12 +2009,13 @@ ul {
 }
 .responsive-menu .title {
   color: #ffffff;
+  font-family: AldusNovaPro;
   font-size: 18px;
   font-weight: 300;
   text-transform: uppercase;
   float: left;
   width: 100%;
-  padding: 0 0 20px;
+  padding: 0 0 20px 0;
 }
 .responsive-menu .diamonds-thumbnails li {
   width: 25%;
@@ -1873,6 +2048,7 @@ ul {
 }
 .responsive-menu .diamonds-submenu-wrapper .diamonds-submenu .mm-listview a {
   color: #b1b1b1;
+  font-family: AldusNovaPro;
   font-size: 16px;
   font-weight: 300;
 }
@@ -1883,6 +2059,9 @@ ul {
   border: none;
 }
 /*-------------- create account page  ---------------------*/
+.registration-section {
+  font-family: AldusNovaPro;
+}
 .registration-section .create-account {
   width: 60%;
   float: left;
@@ -1908,9 +2087,21 @@ ul {
     max-width: 100%;
   }
 }
+.registration-section .create-account .account-wrapper h3 {
+  width: 100%;
+  text-align: center;
+  color: #1b1b1b;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
 .registration-section .create-account .account-wrapper .create-caption {
   width: 100%;
+  text-align: center;
   color: #4b4c4d;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
 }
 .registration-section .create-account .account-wrapper form {
   margin: 0 auto 20px;
@@ -1926,18 +2117,29 @@ ul {
 }
 .registration-section .create-account .account-wrapper form .input-group-addon {
   border-color: #000000;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   border-radius: 0;
 }
 .registration-section .create-account .account-wrapper form .datepicker {
   display: block;
+}
+.registration-section .create-account .account-wrapper form .btn-color {
+  background-color: #4b4c4d;
+  border: 1px solid #4b4c4d;
+  height: 37px;
+  border-radius: 0;
+  height: 48px;
 }
 .registration-section .create-account .account-wrapper form .radio-inline {
   color: #4b4c4d;
 }
 .registration-section .create-account .account-wrapper form .checkbox-text {
   color: #4b4c4d;
+}
+.registration-section .create-account .account-wrapper form .btn-continue {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 .registration-section .login-section {
   width: 40%;
@@ -1965,24 +2167,48 @@ ul {
     max-width: 100%;
   }
 }
-.registration-section .login-section .login-wrapper .login-caption {
-  color: #4b4c4d;
+.registration-section .login-section .login-wrapper h3 {
+  width: 100%;
   text-align: center;
+  color: #1b1b1b;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.registration-section .login-section .login-wrapper .login-caption {
+  width: 100%;
+  color: #4b4c4d;
+  font-size: 16px;
+  font-weight: 300;
+}
+@media only screen and (max-width: 480px) {
+  .registration-section .login-section .login-wrapper .login-caption {
+    text-align: center;
+  }
 }
 .registration-section .login-section .login-wrapper form .button-login {
   width: 100%;
   color: #ffffff;
 }
-.registration-section .login-section .login-wrapper form .btn-fb {
-  background: #3b5999;
-  font-family: HelveticaNeue-Bold;
-  color: #ffffff;
+.registration-section .login-section .login-wrapper form .btn-color {
+  background-color: #4b4c4d;
+  border: 1px solid #4b4c4d;
+  border-radius: 0;
+  height: 48px;
+  text-transform: uppercase;
 }
-.registration-section .login-section .login-wrapper form .login-with {
-  font-family: HelveticaNeue-Regular;
+.registration-section .login-section .login-wrapper form .button-login {
+  background-color: #4b4c4d;
+  border: 1px solid #4b4c4d;
+}
+.registration-section .login-section .login-wrapper form .btn-block {
+  background: #3b5999;
+  border-radius: 0;
 }
 .registration-section .login-section .login-wrapper form .fb-check {
   float: left;
+  font-size: 30px;
+  color: #ffffff;
 }
 .registration-section .login-section .login-wrapper form .login {
   font-size: 22px;
@@ -1991,15 +2217,17 @@ ul {
 }
 .registration-section .login-section .login-wrapper form .login-via {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 17px;
   text-transform: none;
-  line-height: 1.7;
 }
 .registration-section .login-section .login-wrapper form .password {
   width: 100%;
-  padding: 20px 0 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
   color: #939393;
   font-size: 18px;
+  font-weight: 300;
   float: left;
 }
 form .form-group.label-floating .control-label {
@@ -2015,8 +2243,8 @@ form .form-group .form-control {
   border: 1px solid #4b4c4d;
   background: none;
 }
-form .form-group.has-error.is-focused .form-control,
-form .form-group.is-focused .form-control {
+form .form-group.is-focused .form-control,
+form .form-group.has-error.is-focused .form-control {
   background: none;
 }
 form .form-group .error {
@@ -2030,15 +2258,28 @@ form .form-group .star {
   color: #e7838b;
 }
 /*-------- My account order--------*/
+@media only screen and (max-width: 1024px) {
+  .delivery {
+    width: 100%;
+    padding: 0;
+  }
+}
 .my-accounts-order {
+  font-family: AldusNovaPro;
   width: 100%;
   float: left;
+}
+.my-accounts-order h2 {
+  color: #1b1b1b;
+  font-family: AldusNovaPro;
+  font-size: 30px;
+  font-weight: 300;
 }
 .my-accounts-order .order-wrapper {
   background: #f5f5f5;
   float: left;
   width: 100%;
-  margin: 0 0 50px;
+  margin: 0 0 50px 0;
 }
 @media only screen and (max-width: 1024px) {
   .my-accounts-order .order-wrapper {
@@ -2046,12 +2287,18 @@ form .form-group .star {
   }
 }
 .my-accounts-order .order-wrapper h3 {
-  margin: 25px 0 15px;
+  margin: 25px 0 15px 0;
 }
 .my-accounts-order .order-wrapper h4 {
+  font-size: 16px;
   border-bottom: 1px solid #d3d3d3;
   padding: 10px 0;
   margin: 15px;
+}
+.my-accounts-order .order-wrapper p {
+  font-size: 16px;
+  margin: 0;
+  color: #4b4c4d;
 }
 .my-accounts-order .order-wrapper .order-no {
   font-weight: 700;
@@ -2068,12 +2315,19 @@ form .form-group .star {
   }
 }
 .my-accounts-order .order-wrapper .expected-on {
-  color: #4b4c4d;
+  font-weight: 300;
 }
 .my-accounts-order .order-wrapper .expected-date {
-  color: #4b4c4d;
   font-size: 21px;
   font-weight: 700;
+}
+.my-accounts-order .order-wrapper .btn-cancel-order,
+.my-accounts-order .order-wrapper .btn-return-order {
+  font-size: 16px;
+  padding: 6px 25px;
+  background: #4b4c4d;
+  color: #ffffff;
+  border: none;
 }
 .my-accounts-order .order-wrapper .review-points {
   background: #ffffff;
@@ -2081,13 +2335,6 @@ form .form-group .star {
   width: auto;
   padding: 10px 20px;
   margin: 15px 0 0;
-}
-@media only screen and (max-width: 767px) {
-  .my-accounts-order .order-wrapper .review-points {
-    text-align: center;
-    float: left;
-    width: 100%;
-  }
 }
 .my-accounts-order .order-wrapper .review-points label {
   margin: 0;
@@ -2121,6 +2368,7 @@ form .form-group .star {
   width: 100%;
 }
 .my-accounts-order .order-wrapper .my-orders-list .item-row {
+  border-bottom: 1px solid #dddddd;
   float: left;
   width: 100%;
   padding: 20px 0;
@@ -2134,26 +2382,31 @@ form .form-group .star {
   height: 80px;
   background: #ffffff;
 }
-.my-accounts-order .order-wrapper .my-orders-list .item-row .view-button {
+.my-accounts-order .order-wrapper .my-orders-list .item-row .view-details {
   padding-top: 0;
 }
-.my-accounts-order .order-wrapper .my-orders-list .item-row .view-button .view-link {
-  text-decoration: underline;
-  padding-top: 25px;
-}
-.my-accounts-order .order-wrapper .my-orders-list .item-row .cancel-order {
-  float: right;
-}
-.my-accounts-order .order-wrapper .my-orders-list .item-row .cancel-order p {
+.my-accounts-order .order-wrapper .my-orders-list .item-row .view-details .view-link {
   color: #4b4c4d;
-}
-.my-accounts-order .order-wrapper .my-orders-list .item-row .cancel-order .view-link {
+  font-family: AldusNovaPro;
+  font-size: 16px;
+  font-weight: 300;
   text-decoration: underline;
-  padding: 9px 0 0;
+  padding: 0 43px 12px 0;
+}
+@media only screen and (max-width: 767px) {
+  .my-accounts-order .order-wrapper .my-orders-list .item-row .view-details .view-link {
+    padding-top: 20px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .my-accounts-order .order-wrapper .my-orders-list .item-row .view-details .view-link {
+    padding-right: 4px;
+  }
 }
 .my-accounts-order .order-wrapper .my-orders-list .item-row .btn-return-order {
   float: right;
   margin: 0 0 0 100px;
+  background-color: #4b4c4d;
 }
 @media only screen and (max-width: 767px) {
   .my-accounts-order .order-wrapper .my-orders-list .item-row .btn-return-order {
@@ -2175,6 +2428,8 @@ form .form-group .star {
   margin-top: 0;
 }
 .my-accounts-order .courier-wrapper .btn-track {
+  background: #4b4c4d;
+  color: #ffffff;
   float: right;
   margin: 10px 0;
 }
@@ -2184,13 +2439,13 @@ form .form-group .star {
   }
 }
 .stepwizard-wrapper {
-  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+  padding: 20px 0;
 }
 .stepwizard {
   width: 100%;
   position: relative;
   float: left;
-  padding: 30px 0 38px;
 }
 @media only screen and (max-width: 767px) {
   .stepwizard {
@@ -2270,101 +2525,10 @@ form .form-group .star {
   background: #4b4c4d;
   color: #ffffff;
 }
-.courier-wrapper,
-.stepwizard-wrapper {
+.stepwizard-wrapper,
+.courier-wrapper {
   float: left;
   width: 100%;
-}
-/*---------Order History-------*/
-@media only screen and (max-width: 1024px) {
-  .delivery {
-    width: 100%;
-    padding: 0;
-  }
-}
-.my-accounts-order {
-  width: 100%;
-  float: left;
-}
-.my-accounts-order .pending-wrapper {
-  padding-top: 20px;
-}
-.my-accounts-order .shipping-wrapper {
-  padding-top: 20px;
-}
-.my-accounts-order .order-wrapper {
-  background: #f5f5f5;
-  float: left;
-  width: 100%;
-  margin: 0 0 50px;
-}
-@media only screen and (max-width: 1024px) {
-  .my-accounts-order .order-wrapper {
-    margin: 0;
-  }
-}
-.my-accounts-order .order-wrapper h3 {
-  margin: 25px 0 15px;
-}
-.my-accounts-order .order-wrapper h4 {
-  border-bottom: 1px solid #d3d3d3;
-  padding: 10px 0;
-  margin: 15px;
-}
-.my-accounts-order .order-wrapper .order-no {
-  font-weight: 700;
-}
-.my-accounts-order .order-wrapper .my-orders-list {
-  float: left;
-  width: 100%;
-}
-.my-accounts-order .order-wrapper .my-orders-list .item-row {
-  float: left;
-  width: 100%;
-  padding: 20px 0;
-  border-bottom: 1px solid #d3d3d3;
-}
-.my-accounts-order .order-wrapper .my-orders-list .item-row:last-child {
-  border-bottom: none;
-}
-.my-accounts-order .order-wrapper .my-orders-list .item-row .thumbnail-wrapper {
-  float: left;
-  width: 80px;
-  height: 80px;
-  background: #ffffff;
-}
-.my-accounts-order .order-wrapper .my-orders-list .item-row .view-details {
-  padding-top: 0;
-}
-.my-accounts-order .order-wrapper .my-orders-list .item-row .view-details .view-link {
-  text-decoration: underline;
-  padding: 0 43px 12px 0;
-}
-@media only screen and (max-width: 767px) {
-  .my-accounts-order .order-wrapper .my-orders-list .item-row .view-details .view-link {
-    padding-top: 20px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .my-accounts-order .order-wrapper .my-orders-list .item-row .view-details .view-link {
-    padding-right: 4px;
-  }
-}
-.my-accounts-order .order-wrapper .my-orders-list .item-row .btn-return-order {
-  float: right;
-  margin: 0 0 0 100px;
-}
-@media only screen and (max-width: 767px) {
-  .my-accounts-order .order-wrapper .my-orders-list .item-row .btn-return-order {
-    margin: 25px 0;
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .my-accounts-order .order-wrapper .my-orders-list .item-row .btn-return-order {
-    margin-left: 465px;
-    margin-right: 0px;
-  }
 }
 .history-wrapper {
   clear: both;
@@ -2384,95 +2548,16 @@ form .form-group .star {
 }
 .product-details .product-name {
   color: #4b4c4d;
+  font-family: AldusNovaPro;
   font-size: 16px;
   font-weight: 700;
 }
 .product-details .product-insure {
   color: #4b4c4d;
+  font-family: AldusNovaPro;
   font-size: 16px;
   font-weight: 300;
 }
 .deliver-wrapper {
   clear: both;
-}
-/*----------track order---------*/
-.track-order-section .order-status {
-  width: 60%;
-  float: left;
-}
-@media only screen and (max-width: 991px) {
-  .track-order-section .order-status {
-    width: 50%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .track-order-section .order-status {
-    width: 100%;
-  }
-}
-.track-order-section .order-status .track-wrapper {
-  margin: 0 auto;
-  width: 100%;
-  padding: 20px;
-  max-width: 500px;
-}
-@media only screen and (max-width: 767px) {
-  .track-order-section .order-status .track-wrapper {
-    max-width: 100%;
-  }
-}
-.track-order-section .order-status .track-wrapper form {
-  margin: 0 auto 20px;
-  color: #cfcfcf;
-}
-.track-order-section .login-section {
-  width: 40%;
-  float: left;
-}
-@media only screen and (max-width: 991px) {
-  .track-order-section .login-section {
-    width: 50%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .track-order-section .login-section {
-    width: 100%;
-  }
-}
-.track-order-section .login-section .login-wrapper {
-  margin: 0 auto;
-  width: 100%;
-  padding: 20px;
-  max-width: 400px;
-}
-@media only screen and (max-width: 767px) {
-  .track-order-section .login-section .login-wrapper {
-    max-width: 100%;
-  }
-}
-.track-order-section .login-section .login-wrapper .login-caption {
-  font-size: 20px;
-}
-@media only screen and (max-width: 480px) {
-  .track-order-section .login-section .login-wrapper .login-caption {
-    text-align: center;
-  }
-}
-.track-order-section .login-section .login-wrapper .logged-ways {
-  padding-top: 22px;
-}
-.track-order-section .login-section .login-wrapper .logged-ways .logged-list {
-  background: url("../images/tick.png") no-repeat left;
-  color: #4b4c4d;
-  padding-left: 20px;
-  line-height: 33px;
-}
-.deliver-wrapper {
-  clear: both;
-}
-.accordion-title-padding {
-  padding: 10px 35px 0;
-}
-.accordion-content-padding {
-  padding: 0 35px 35px;
 }
