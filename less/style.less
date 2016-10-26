@@ -1030,10 +1030,20 @@ ul {
   width: 100%;
   background-color: @navs-bg;
   float: left;
+  .enquiry .row {
+    display: flex;
+    .maxWidth(@scr-768, {
+      flex-direction: column;
+      width: 100%;
+    });
+  }
   .social-section {
     height: auto;
     padding-top: 40px;
     .maxWidth(@scr-992, { text-align: center; });
+    .maxWidth(@scr-768, {
+      order:3;
+    });
     .follow {
       color: @white;
       font-size: 18px;
@@ -1056,6 +1066,10 @@ ul {
     line-height: 14px;
     padding: 42px 5% 20px;
     .maxWidth(@scr-992, { text-align: center; });
+    .maxWidth(@scr-768, {
+      order:1;
+      border-bottom: 1px solid @white;
+    });
     .sign-up {
       color: @white;
       font-size: 18px;
@@ -1155,6 +1169,10 @@ ul {
         color: @white;
       }
     }
+    .maxWidth(@scr-768, {
+      display: flex;
+      justify-content: center;
+    });
   }
   .contact-address {
     padding-top: 42px;
@@ -1167,10 +1185,19 @@ ul {
       font-size: 14px;
     }
     .maxWidth(@scr-992, { text-align: center; });
+    .maxWidth(@scr-768, {
+      order:2;
+      border-bottom: 1px solid @white;
+      padding: 20px 0;
+    });
   }
   .detail-list {
     width: 100%;
-    padding-top: 0;
+    padding-top: 20px;
+    border-top: 1px solid @grey400;
+    .maxWidth(@scr-768, {
+      border: none;
+    });
     span {
       padding-top: 20px;
       padding-bottom: 12px;
@@ -1186,12 +1213,13 @@ ul {
         color: @grey200;
         list-style-type: none;
       }
-      .maxWidth(@scr-768, { display: none; });
+      .maxWidth(@scr-768, {
+        display: none;
+        padding-left: 30px;
+      });
       .minWidth(@scr-768, { display: block!important; });
     }
     .accordion-mobile {
-      margin-left: -30px;
-      margin-right: -30px;
       background: #454545;
       padding: 15px 30px;
       cursor: pointer;
@@ -1200,7 +1228,7 @@ ul {
         content: '+';
         font-size: 30px;
         position: absolute;
-        right: 0;
+        right: 20px;
       }
       &.active:before {
         content: '';
