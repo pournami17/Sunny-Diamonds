@@ -108,53 +108,70 @@ ul {
     z-index: 2;
 
     li {
-        float: left;
-        padding-left: 42px;
-        background-repeat: no-repeat;
-        background-position: 20px center;
+      float: left;
+      padding-left: 42px;
+      position: relative;
+      cursor: pointer;
+      &:before {
+        content: '';
         position: relative;
-
-        a {
-            color: @black;
-            font-family: Karbon;
-            font-size: 14px;
-            font-weight: @fontWeightLight;
-            text-transform: uppercase;
-        }
-
-        .notify {
-            background: @red400;
-            width: 14px;
-            height: 14px;
-            border-radius: 10px;
-            font-size: 11px;
-            font-weight: @fontWeightLight;
-            display: block;
-            color: @white;
-            text-align: center;
-            position: absolute;
-            right: -8px;
-            top: -6px;
-        }
-
-        &.login {
-            background-image: url("../images/icon-login.png");
-        }
-
-        &.search {
-            background-image: url("../images/icon-search.png");
-        }
-
-        &.store {
-            background-image: url("../images/icon-store.png");
-        }
-
-        &.collection {
-            background-image: url("../images/icon-collection.png");
-        }
-
-        &.bag {
-            background-image: url("../images/icon-bag.png");
+        background: url(../images/sprites2.png) no-repeat -10px -8px;
+        width: 16px;
+        height: 18px;
+        position: absolute;
+        left: 22px;
+      }
+      &:hover {
+        cursor: pointer;
+        text-decoration: none;
+      }
+      a {
+          color: @black;
+          font-family: Karbon;
+          font-size: 14px;
+          font-weight: @fontWeightLight;
+          text-transform: uppercase;
+      }
+      &.search:before {
+        background-position: -10px -34px;
+      }
+      &.store:before {
+        background-position: -10px -60px;
+      }
+      &.collection:before {
+        background-position: -10px -112px;
+      }
+      &.bag:before {
+        background-position: -10px -139px;
+      }
+      &.login.current:before, &.login:hover:before {
+        background-position: -35px -8px;
+      }
+      &.search.current:before, &.search:hover:before {
+        background-position: -35px -34px;
+      }
+      &.store.current:before, &.store:hover:before {
+        background-position: -35px -60px;
+      }
+      &.collection.current:before, &.collection:hover:before {
+        background-position: -35px -112px;
+      }
+      &.bag.current:before, &.bag:hover:before {
+        background-position: -35px -139px;
+      }
+      .notify {
+          background: @red400;
+          width: 14px;
+          height: 14px;
+          border-radius: 10px;
+          font-size: 11px;
+          font-weight: @fontWeightLight;
+          display: block;
+          color: @white;
+          text-align: center;
+          position: absolute;
+          right: -8px;
+          top: -6px;
         }
 
         &.current {
@@ -202,6 +219,9 @@ ul {
             padding: 10px 0;
             float: none;
             border-bottom: 1px solid #dbdbdb;
+            &:before {
+              background: none;
+            }
         }
     }
 }
