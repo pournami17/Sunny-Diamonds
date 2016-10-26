@@ -9,39 +9,53 @@ webApp.prototype.init = function() {
 };
 
 webApp.prototype.validate = function() {
-    $("#register-form").validate({
-        rules: {
-            firstname: "required",
-            lastname: "required",
-            dateOfBirth: "required",
-            email: "required",
-            password: {
-                required: true,
-                minlength: 5
-            },
-            confirmPassword: {
-                equalTo: "#password"
-            }
-        },
-        messages: {
-            firstname: "Please enter your firstname",
-            lastname: "Please enter your lastname",
-            dateOfBirth: "Please enter your DOB",
-            email: "Please enter a valid email id",
-            password: {
-                required: "Please provide a password"
-            }
-        }
-    });
-    $("#login-form").validate({
-      rules : {
-        email: "required",
-        password: {
-            required: true,
-            minlength: 5
-        }
+  $("#register-form").validate({
+      rules: {
+          firstName: "required",
+          lastName: "required",
+          dateOfBirth: "required",
+          email: "required",
+          password: {
+              required: true,
+              minlength: 5
+          },
+          confirmPassword: {
+              equalTo: "#password"
+          }
+      },
+      messages: {
+          firstName: "Please enter your firstname",
+          lastName: "Please enter your lastname",
+          dateOfBirth: "Please enter your DOB",
+          email: "Please enter a valid email id",
+          password: {
+              required: "Please provide a password"
+          }
       }
-    })
+  });
+  $("#login-form").validate({
+    rules : {
+      email: "required",
+      password: {
+          required: true,
+          minlength: 5
+      }
+    },
+    messages: {
+      email: "Please enter your email",
+      password: "Please enter your password"
+    }
+  });
+  $("#track-order-form").validate({
+    rules : {
+      email: "required",
+      orderId: "required"
+    },
+    messages: {
+      email: "Please enter a valid email id",
+      orderId: "Please enter your orderId"
+    }
+  });
 };
 
 webApp.prototype.customScript = function() {

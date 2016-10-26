@@ -308,276 +308,38 @@
   </nav>
 
   <!-- END OF MOBILE AND TABLET MENU-->
-
-  <!-- myaccount -->
-  <section class="my-account-wrapper">
-    <div class="container">
-      <h2 class="text-center">MY ACCOUNT</h2>
-      <div class="my-account clearfix">
-        <div class="accordions">
-          <div class="edit-account accordion-header accordion-title-padding">
-            <h3>EDIT ACCOUNT INFORMATION</h3>
-          </div>
-          <div class="accordion-content accordion-content-padding pull-left">
-            <form id="my-account">
-              <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                <div class="form-group label-floating">
-                  <label for="i5" class="control-label">
-                    <span class="text-name">First Name</span>
-                    <span class="required">*</span>
-                  </label>
-                  <input type="text" class="form-control" name="firstname" maxlength="10">
-                </div>
-              </div>
-              <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                <div class="form-group label-floating">
-                  <label for="lastName" class="control-label">
-                    <span class="text-name">Last Name</span>
-                    <span class="required">*</span>
-                  </label>
-                  <input type="text" class="form-control" name="lastName" maxlength="10">
-                </div>
-              </div>
-              <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                <div class="form-group label-floating">
-                  <label for="accountEmail" class="control-label">
-                    <span class="text-name">Email Address</span>
-                    <span class="required">*</span>
-                  </label>
-                  <input type="email" class="form-control" id="accountEmail">
-                </div>
-              </div>
-              <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                <div class="form-group label-floating">
-                  <label for="confirmAccountEmail" class="control-label">
-                    <span class="text-name">Confirm Email Address</span>
-                    <span class="required">*</span>
-                  </label>
-                  <input type="email" class="form-control" id="confirmAccountEmail">
-                </div>
-              </div>
-              <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                <div class="form-group label-floating">
-                  <label for="dateOfBirth" class="control-label">
-                    <span class="text-name">Date of Birth</span>
-                    <span class="required">*</span>
-                  </label>
-                  <div class='input-group date datepicker' id='dateOfBirthPicker'>
-                    <input type='text' class="form-control" name="dateOfBirth">
-                    <span class="input-group-addon calender-icon">
-                      <img src="images/layer-3.png">
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                <div class="form-group label-floating">
-                  <label for="telephone" class="control-label">
-                    <span class="text-name">Telephone</span>
-                    <span class="required">*</span>
-                  </label>
-                  <input type="email" class="form-control" id="telephone">
-                </div>
-              </div>
-              <div class="col-xs-12 form-group-wrapper">
-                <div class="checkbox">
-                  <label for="changePassword">
-                    <input type="checkbox" id="changePassword">
-                    <span class="checkbox-material"> Change Password</span>
-                  </label>
-                </div>
-              </div>
-              <div class="change-password-wrapper">
-                <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                  <div class="form-group label-floating">
-                    <label for="currentPpassword" class="control-label">
-                      <span class="text-name">Current Password</span>
-                      <span class="required">*</span>
-                    </label>
-                    <input type="text" class="form-control" name="currentPpassword" maxlength="10">
-                  </div>
-                </div>
-                <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                  <div class="form-group label-floating">
-                    <label for="newPassword" class="control-label">
-                      <span class="text-name">New Password</span>
-                      <span class="required">*</span>
-                    </label>
-                    <input type="text" class="form-control" name="newPassword<" maxlength="10">
-                  </div>
-                </div>
-                <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                  <div class="form-group label-floating">
-                    <label for="i5" class="control-label">
-                      <span class="text-name">Confirm New Password</span>
-                      <span class="required">*</span>
-                    </label>
-                    <input type="text" class="form-control" name="confirmNewPassword" maxlength="10">
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-12 form-group-wrapper">
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox">
-                    <span class="checkbox-material"> Sign Up for Newsletter</span>
-                  </label>
-                </div>
-              </div>
-              <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                <button type="submit" class="btn btn-default btn-primary btn-block">
-                  SAVE
-                </button>
-              </div>
-            </form>
+    <section class="track-order-section">
+        <div class="order-status container">
+            <div class="track-wrapper">
+                <h3 class="text-center">TRACK USING ORDER ID</h3>
+                <form id="track-order-form">
+                    <div class="form-group label-floating">
+                        <label class="control-label"><span class="text-name">Email Address</span><span class="star">*</span></label>
+                        <input type="email" name="email" class="form-control">
+                    </div>
+                    <div class="form-group label-floating">
+                        <label for="orderId" class="control-label"><span class="text-name">Order ID</span><span class="star">*</span></label>
+                        <input type="text" class="form-control" name="orderId">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block btn-default">view order status</button>
+                </form>
+            </div>
+        </div>
+        <div class="login-section container">
+          <div class="login-wrapper">
+            <p class="login-caption">Would you like to know, what are all logged users doing right now? Well, they:</p>
+            <ul class="logged-ways">
+              <li class="logged-list">Create wishlists</li>
+              <li class="logged-list">Track their shipments</li>
+              <li class="logged-list">View their order history</li>
+              <li class="logged-list">Cancel individual orders</li>
+              <li class="logged-list">Benefit from great deals and many other offers</li>
+            </ul>
+            <button type="submit" class="btn btn-primary btn-block btn-default">login</button>
           </div>
         </div>
-      </div>
-      <div class="address-book clearfix">
-        <div class="accordions">
-          <div class="col-md-6 col-xs-12 address-container accordion-header">
-            <h3>ADDRESS BOOK</h3>
-            </span>
-            <span class="manage-address">Manage Addresses</span>
-          </div>
-          <div class="col-md-6 col-xs-12  add-address-desktop address-container">
-            <p class="pull-right add-address">+ <u>Add Address</u></p>
-          </div>
-          <div class="accordion-content">
-            <div class="col-md-6 col-sm-12 col-xs-12 billing-wrapper billing-left ">
-              <div class="default-billing right-margin">
-                <div class="pull-right">
-                  <a class="close-address">
-                    <img src="images/close.png" alt="Close">
-                  </a>
-                </div>
-                <p class="billing-address">Default Billing Address</p>
-                <p class="billing-not-set">You have not set a default billing address.</p>
-                <p class="billing-edit-address">
-                  <img src="images/edit.png" alt="Edit"> Edit Address</p>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 billing-wrapper billing-right">
-              <div class="default-billing left-margin">
-                <div class="pull-right">
-                  <a class="close-address">
-                    <img src="images/close.png" alt="Close">
-                  </a>
-                </div>
-                <p class="billing-address">Default Billing Address</p>
-                <p class="billing-not-set">You have not set a default billing address.</p>
-                <p class="billing-edit-address">
-                  <img src="images/edit.png" alt="Edit"> Edit Address</p>
-              </div>
-            </div>
-            <div class="col-md-6 col-xs-12 add-address-mobile address-container">
-              <p class="add-address ">+ <u>Add Address</u></p>
-            </div>
-            <div class="add-new-address clearfix">
-              <h3>ADD NEW ADDRESS</h3>
-              <p class="contact-info">CONTACT INFORMATION</p>
-
-              <form>
-
-                <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                  <div class="form-group label-floating">
-                    <label for="firstName" class="control-label">
-                      <span class="text-name">First Name</span>
-                      <span class="required">*</span>
-                    </label>
-                    <input type="text" class="form-control" name="firstName" maxlength="10">
-                  </div>
-                </div>
-                <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                  <div class="form-group label-floating">
-                    <label for="lastName" class="control-label">
-                      <span class="text-name">Last Name</span>
-                      <span class="required">*</span>
-                    </label>
-                    <input type="text" class="form-control" name="lastName" maxlength="10">
-                  </div>
-                </div>
-                <div class="col-md-12 col-sm-12 col-xs-12 contact-info">ADDRESS LINE</div>
-                <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                  <div class="form-group label-floating">
-                    <label for="street" class="control-label">
-                      <span class="text-name">Street</span>
-                      <span class="required">*</span>
-                    </label>
-                    <input type="text" class="form-control" name="street" maxlength="10">
-                  </div>
-                </div>
-                <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                  <div class="form-group label-floating">
-                    <label for="house" class="control-label">
-                      <span class="text-name">House/Flat Number</span>
-                      <span class="required">*</span>
-                    </label>
-                    <input type="text" class="form-control" id="house">
-                  </div>
-                </div>
-                <div class="col-sm-12 col-xs-12 form-group-wrapper">
-                  <div class="form-group label-floating">
-                    <label for="addressLine" class="control-label">
-                      <span class="text-name">Address Line ( Use only when necessary ) </span>
-                      <span class="required">*</span>
-                    </label>
-                    <input type="email" class="form-control" id="addressLine">
-                  </div>
-                </div>
-                <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                  <div class="form-group label-floating">
-                    <label for="zip" class="control-label">
-                      <span class="text-name">Zip/Postal Code</span>
-                      <span class="required">*</span>
-                    </label>
-                    <input type="text" class="form-control" name="zip" maxlength="10">
-                  </div>
-                </div>
-                <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                  <div class="form-group label-floating">
-                    <label for="city" class="control-label">
-                      <span class="text-name">City</span>
-                      <span class="required">*</span>
-                    </label>
-                    <input type="email" class="form-control" id="city">
-                  </div>
-                </div>
-                <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                  <div class="form-group label-floating">
-                    <label for="state" class="control-label">
-                      <span class="text-name">State/Province</span>
-                      <span class="required">*</span>
-                    </label>
-                    <input type="text" class="form-control" name="state" maxlength="10">
-                  </div>
-                </div>
-                <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                  <div class="form-group label-floating">
-                    <label for="country" class="control-label">
-                      <span class="text-name">Country</span>
-                      <span class="required">*</span>
-                    </label>
-                    <input type="email" class="form-control" id="country">
-                  </div>
-                </div>
-                <div class="col-sm-6 col-xs-12 form-group-wrapper">
-                  <button type="submit" class="btn btn-default btn-primary btn-block">
-                  Save address
-                  </button>
-                </div>
-              </form>
-
-            </div>
-            <!-- </div> -->
-          </div>
-        </div>
-      </div>
-  </section>
-  <!-- myaccount -->
-
-  <!-- footer -->
-  <footer class="contact-section">
+    </section>
+    <footer class="contact-section">
     <div class="enquiry container">
       <div class="row">
         <div class="social-section col-md-3 col-sm-3">
@@ -708,7 +470,6 @@
     </div>
   </footer>
   </div>
-  <!-- ** End of footer ** -->
   <script src="js/jquery.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="owl-carousel/owl.carousel.min.js"></script>
