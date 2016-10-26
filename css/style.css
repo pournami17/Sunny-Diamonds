@@ -1241,6 +1241,15 @@ ul {
   background-color: #313131;
   float: left;
 }
+.contact-section .enquiry .row {
+  display: flex;
+}
+@media only screen and (max-width: 768px) {
+  .contact-section .enquiry .row {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .contact-section .social-section {
   height: auto;
   padding-top: 40px;
@@ -1248,6 +1257,11 @@ ul {
 @media only screen and (max-width: 992px) {
   .contact-section .social-section {
     text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact-section .social-section {
+    order: 3;
   }
 }
 .contact-section .social-section .follow {
@@ -1278,6 +1292,12 @@ ul {
 @media only screen and (max-width: 992px) {
   .contact-section .subscribe-section {
     text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact-section .subscribe-section {
+    order: 1;
+    border-bottom: 1px solid #ffffff;
   }
 }
 .contact-section .subscribe-section .sign-up {
@@ -1396,6 +1416,12 @@ ul {
 .contact-section .radio-section .radio-text:checked ~ .gender {
   color: #ffffff;
 }
+@media only screen and (max-width: 768px) {
+  .contact-section .radio-section {
+    display: flex;
+    justify-content: center;
+  }
+}
 .contact-section .contact-address {
   padding-top: 42px;
   color: #ffffff;
@@ -1412,9 +1438,22 @@ ul {
     text-align: center;
   }
 }
+@media only screen and (max-width: 768px) {
+  .contact-section .contact-address {
+    order: 2;
+    border-bottom: 1px solid #ffffff;
+    padding: 20px 0;
+  }
+}
 .contact-section .detail-list {
   width: 100%;
-  padding-top: 0;
+  padding-top: 20px;
+  border-top: 1px solid #bdbdbd;
+}
+@media only screen and (max-width: 768px) {
+  .contact-section .detail-list {
+    border: none;
+  }
 }
 .contact-section .detail-list span {
   padding-top: 20px;
@@ -1435,6 +1474,7 @@ ul {
 @media only screen and (max-width: 768px) {
   .contact-section .detail-list ul {
     display: none;
+    padding-left: 30px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -1443,8 +1483,6 @@ ul {
   }
 }
 .contact-section .detail-list .accordion-mobile {
-  margin-left: -30px;
-  margin-right: -30px;
   background: #454545;
   padding: 15px 30px;
   cursor: pointer;
@@ -1454,7 +1492,7 @@ ul {
   content: '+';
   font-size: 30px;
   position: absolute;
-  right: 0;
+  right: 20px;
 }
 .contact-section .detail-list .accordion-mobile.active:before {
   content: '';
