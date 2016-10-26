@@ -63,6 +63,14 @@ webApp.prototype.myAccount = function () {
       }, 1000, 'linear');
     });
   });
+  var change_password_wrapper = $('.change-password-wrapper'),
+    add_new_address = $('.add-new-address'),
+    change_password = $('#change-password'),
+    close_address = $('.close-address'),
+    add_address = $('.add-address '),
+    billing_wrapper = $('.billing-wrapper');
+  change_password_wrapper.hide();
+  add_new_address.hide();
 
   var $changePasswordWrapper = $('.change-password-wrapper'),
     $addNewAddress = $('.add-new-address'),
@@ -87,6 +95,7 @@ webApp.prototype.myAccount = function () {
       scrollTop: $('.add-new-address').offset().top,
     }, 500, 'linear');
   });
+
 
   function fadeInContent(element) {
     $(element).fadeIn(1000);
@@ -171,6 +180,7 @@ webApp.prototype.silder = function () {
   $(window).load(function () {
     $('body').removeClass('preload');
   });
+
 };
 
 webApp.prototype.responsiveMenu = function () {
